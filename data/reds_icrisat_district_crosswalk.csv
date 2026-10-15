@@ -1,0 +1,103 @@
+district99,state99,district82,state82,dist71,state71,state_name,district_name,is_iadp,iadp_flag,is_iadp_named,in_1971,in_1982,in_1999,balanced_all_3,dist_clean,State Name,Dist Name,Dist Code
+1.0,1.0,1.0,1.0,1,1,Andhra Pradesh,West Godavari,False,True,True,True,True,True,True,west godavari,Andhra Pradesh,West Godavari,47.0
+2.0,1.0,2.0,1.0,2,1,Andhra Pradesh,Anantapur,False,True,False,True,True,True,True,anantapur,,,
+3.0,1.0,3.0,1.0,3,1,Andhra Pradesh,Chitoor,False,False,False,True,True,True,True,chitoor,,,
+4.0,1.0,4.0,1.0,4,1,Andhra Pradesh,Krishna,False,False,False,True,True,True,True,krishna,Andhra Pradesh,Krishna,48.0
+5.0,1.0,5.0,1.0,5,1,Andhra Pradesh,Prakasam,False,False,False,True,True,True,True,prakasam,,,
+6.0,1.0,6.0,1.0,6,1,Andhra Pradesh,Vinnagaram,False,False,False,True,True,True,True,vinnagaram,,,
+1.0,2.0,1.0,2.0,11,3,Bihar,Bhojpur,False,True,True,True,True,True,True,bhojpur,,,
+2.0,2.0,2.0,2.0,11,3,Bihar,Rohtas,False,True,False,True,True,True,True,rohtas,,,
+3.0,2.0,3.0,2.0,12,3,Bihar,Ranchi,False,False,False,True,True,True,True,ranchi,Jharkhand,Ranchi,916.0
+4.0,2.0,4.0,2.0,13,3,Bihar,Santhal Parganas,False,False,False,True,True,True,True,santhal parganas,,,
+5.0,2.0,5.0,2.0,14,3,Bihar,Girdih,False,False,False,True,True,True,True,girdih,,,
+6.0,2.0,6.0,2.0,15,3,Bihar,Purnca,False,True,False,True,True,True,True,purnca,,,
+1.0,3.0,1.0,3.0,16,4,Gujarat,Surat,False,False,True,True,True,True,True,surat,Gujarat,Surat,137.0
+2.0,3.0,2.0,3.0,17,4,Gujarat,Bhavnagar,False,False,False,True,True,True,True,bhavnagar,Gujarat,Bhavnagar,126.0
+3.0,3.0,3.0,3.0,18,4,Gujarat,Junagarh,False,False,False,True,True,True,True,junagarh,,,
+4.0,3.0,4.0,3.0,19,4,Gujarat,Rajkot,False,False,False,True,True,True,True,rajkot,Gujarat,Rajkot,135.0
+5.0,3.0,5.0,3.0,20,4,Gujarat,Ahmedabad,False,False,False,True,True,True,True,ahmedabad,Gujarat,Ahmedabad,121.0
+6.0,3.0,6.0,3.0,21,4,Gujarat,Barda,False,False,False,True,True,True,True,barda,,,
+7.0,3.0,7.0,3.0,23,4,Gujarat,Kutch,False,False,False,True,True,True,True,kutch,Gujarat,Kutch,132.0
+8.0,3.0,8.0,3.0,22,4,Gujarat,Surendranagar,False,False,False,True,True,True,True,surendranagar,Gujarat,Surendranagar,138.0
+1.0,4.0,1.0,4.0,24,5,Haryana,Hissar,False,False,False,True,True,True,True,hissar,Haryana,Hissar,177.0
+2.0,4.0,2.0,4.0,25,5,Haryana,Sonepat,False,False,False,True,True,True,True,sonepat,,,
+3.0,4.0,3.0,4.0,26,5,Haryana,Gurgaon,False,False,False,True,True,True,True,gurgaon,Haryana,Gurgaon,180.0
+4.0,4.0,4.0,4.0,27,5,Haryana,Jind,False,False,False,True,True,True,True,jind,Haryana,Jind,181.0
+1.0,5.0,1.0,5.0,28,6,Himachal Pradesh,Shimla,False,False,False,True,True,True,True,shimla,Himachal Pradesh,Shimla,635.0
+2.0,5.0,2.0,5.0,29,6,Himachal Pradesh,Mandi,False,False,False,True,True,True,True,mandi,Himachal Pradesh,Mandi,634.0
+,,1.0,6.0,30,7,Jammu & Kashmir,Anantnag,False,False,True,True,True,False,False,anantnag,,,
+,,2.0,6.0,31,7,Jammu & Kashmir,Jammu,False,False,True,True,True,False,False,jammu,,,
+1.0,7.0,1.0,7.0,53,11,Karnataka,Mandya,False,False,True,True,True,True,True,mandya,Karnataka,Mandya,68.0
+2.0,7.0,2.0,7.0,54,11,Karnataka,Belgaum,False,False,False,True,True,True,True,belgaum,Karnataka,Belgaum,75.0
+3.0,7.0,3.0,7.0,55,11,Karnataka,Raichur,False,False,False,True,True,True,True,raichur,Karnataka,Raichur,78.0
+4.0,7.0,4.0,7.0,56,11,Karnataka,Shimoga,False,False,False,True,True,True,True,shimoga,,,
+5.0,7.0,5.0,7.0,57,11,Karnataka,Chitradurga,False,False,False,True,True,True,True,chitradurga,Karnataka,Chitradurga,72.0
+6.0,7.0,6.0,7.0,58,11,Karnataka,Hassan,False,False,False,True,True,True,True,hassan,Karnataka,Hassan,69.0
+7.0,7.0,7.0,7.0,59,11,Karnataka,Kolar,False,False,False,True,True,True,True,kolar,Karnataka,Kolar,65.0
+8.0,7.0,8.0,7.0,60,11,Karnataka,North Kanara,False,False,False,True,True,True,True,north kanara,,,
+1.0,8.0,1.0,8.0,32,8,Kerala,Alleppey,False,True,True,True,True,True,True,alleppey,,,
+2.0,8.0,2.0,8.0,33,8,Kerala,Palghat,False,False,True,True,True,True,True,palghat,,,
+3.0,8.0,3.0,8.0,34,8,Kerala,Malappuram,False,False,False,True,True,True,True,malappuram,Kerala,Malappuram,657.0
+4.0,8.0,4.0,8.0,35,8,Kerala,Trichur,False,False,False,True,True,True,True,trichur,,,
+5.0,8.0,5.0,8.0,34,8,Kerala,Kozhikode,False,False,False,True,True,True,True,kozhikode,Kerala,Kozhikode,656.0
+6.0,8.0,6.0,8.0,36,8,Kerala,Quilon,False,False,False,True,True,True,True,quilon,,,
+1.0,9.0,1.0,9.0,37,9,Madhya Pradesh,Raipur,False,True,True,True,True,True,True,raipur,Chhattisgarh,Raipur,3.0
+2.0,9.0,2.0,9.0,38,9,Madhya Pradesh,Balaghat,False,False,False,True,True,True,True,balaghat,Madhya Pradesh,Balaghat,8.0
+3.0,9.0,3.0,9.0,39,9,Madhya Pradesh,Bilaspur,False,False,False,True,True,True,True,bilaspur,Chhattisgarh,Bilaspur,4.0
+4.0,9.0,4.0,9.0,40,9,Madhya Pradesh,Khargone (West Nimar),False,False,False,True,True,True,True,khargone (west nimar),,,
+5.0,9.0,5.0,9.0,41,9,Madhya Pradesh,Chhatarpur,False,False,False,True,True,True,True,chhatarpur,Madhya Pradesh,Chhatarpur,16.0
+6.0,9.0,6.0,9.0,42,9,Madhya Pradesh,Dhar,False,False,False,True,True,True,True,dhar,Madhya Pradesh,Dhar,33.0
+7.0,9.0,7.0,9.0,43,9,Madhya Pradesh,Hoshangabad,False,False,False,True,True,True,True,hoshangabad,Madhya Pradesh,Hoshangabad,43.0
+8.0,9.0,8.0,9.0,44,9,Madhya Pradesh,Rewa,False,False,False,True,True,True,True,rewa,Madhya Pradesh,Rewa,18.0
+1.0,10.0,1.0,10.0,45,10,Maharashtra,Bhandara,False,True,True,True,True,True,True,bhandara,Maharashtra,Bhandara,119.0
+2.0,10.0,2.0,10.0,46,10,Maharashtra,Aurangabad,False,False,False,True,True,True,True,aurangabad,Maharashtra,Aurangabad,108.0
+3.0,10.0,3.0,10.0,47,10,Maharashtra,Kolhapur,False,False,False,True,True,True,True,kolhapur,Maharashtra,Kolhapur,107.0
+4.0,10.0,4.0,10.0,48,10,Maharashtra,Nagpur,False,False,False,True,True,True,True,nagpur,Maharashtra,Nagpur,118.0
+5.0,10.0,5.0,10.0,49,10,Maharashtra,Pune,False,False,False,True,True,True,True,pune,Maharashtra,Pune,103.0
+6.0,10.0,6.0,10.0,51,10,Maharashtra,Amaravati,False,False,False,True,True,True,True,amaravati,,,
+7.0,10.0,7.0,10.0,50,10,Maharashtra,Chandrapur,False,False,False,True,True,True,True,chandrapur,Maharashtra,Chandrapur,120.0
+8.0,10.0,8.0,10.0,52,10,Maharashtra,Yavatmal,False,False,False,True,True,True,True,yavatmal,,,
+1.0,11.0,1.0,11.0,61,12,Orissa,Sambalpur,False,True,True,True,True,True,True,sambalpur,Orissa,Sambalpur,712.0
+2.0,11.0,2.0,11.0,62,12,Orissa,Balasore,False,False,False,True,True,True,True,balasore,Orissa,Balasore,701.0
+3.0,11.0,3.0,11.0,63,12,Orissa,Ganjam,False,False,False,True,True,True,True,ganjam,Orissa,Ganjam,705.0
+4.0,11.0,4.0,11.0,64,12,Orissa,Cuttack,False,False,False,True,True,True,True,cuttack,Orissa,Cuttack,703.0
+1.0,12.0,1.0,12.0,65,13,Punjab,Ludhiana,False,True,True,True,True,True,True,ludhiana,Punjab,Ludhiana,171.0
+2.0,12.0,2.0,12.0,66,13,Punjab,Amritsar,False,False,False,True,True,True,True,amritsar,Punjab,Amritsar,166.0
+3.0,12.0,3.0,12.0,67,13,Punjab,Ferozepur,False,False,False,True,True,True,True,ferozepur,,,
+4.0,12.0,4.0,12.0,68,13,Punjab,Jallandhar,False,False,False,True,True,True,True,jallandhar,,,
+5.0,12.0,5.0,12.0,69,13,Punjab,Kapurthala,False,False,False,True,True,True,True,kapurthala,Punjab,Kapurthala,167.0
+1.0,13.0,1.0,13.0,70,14,Rajasthan,Pali,False,True,True,True,True,True,True,pali,Rajasthan,Pali,159.0
+2.0,13.0,2.0,13.0,71,14,Rajasthan,Alwar,False,False,False,True,True,True,True,alwar,Rajasthan,Alwar,140.0
+3.0,13.0,3.0,13.0,72,14,Rajasthan,Jaipur,False,False,False,True,True,True,True,jaipur,Rajasthan,Jaipur,151.0
+4.0,13.0,4.0,13.0,73,14,Rajasthan,Jhalawar,False,False,False,True,True,True,True,jhalawar,Rajasthan,Jhalawar,154.0
+5.0,13.0,5.0,13.0,74,14,Rajasthan,Shri Ganganagar,False,False,False,True,True,True,True,shri ganganagar,,,
+6.0,13.0,6.0,13.0,75,14,Rajasthan,Bharatpur,False,False,False,True,True,True,True,bharatpur,Rajasthan,Bharatpur,143.0
+7.0,13.0,7.0,13.0,76,14,Rajasthan,Nagaur,False,False,False,True,True,True,True,nagaur,Rajasthan,Nagaur,158.0
+8.0,13.0,8.0,13.0,77,14,Rajasthan,Sawai Madhopur,False,False,False,True,True,True,True,sawai madhopur,,,
+9.0,13.0,9.0,13.0,78,14,Rajasthan,Udaipur,False,False,False,True,True,True,True,udaipur,Rajasthan,Udaipur,164.0
+1.0,14.0,1.0,14.0,79,15,Tamil Nadu,Thanjavur,False,True,True,True,True,True,True,thanjavur,Tamil Nadu,Thanjavur,89.0
+2.0,14.0,2.0,14.0,80,15,Tamil Nadu,Chingleput,False,False,False,True,True,True,True,chingleput,,,
+3.0,14.0,3.0,14.0,81,15,Tamil Nadu,Madurai,False,False,False,True,True,True,True,madurai,Tamil Nadu,Madurai,90.0
+4.0,14.0,4.0,14.0,82,15,Tamil Nadu,Kanyakumari,False,False,False,True,True,True,True,kanyakumari,Tamil Nadu,Kanyakumari,94.0
+5.0,14.0,5.0,14.0,83,15,Tamil Nadu,South Arcot,False,False,False,True,True,True,True,south arcot,,,
+6.0,14.0,6.0,14.0,84,15,Tamil Nadu,Tiruchiapalli,False,False,False,True,True,True,True,tiruchiapalli,,,
+1.0,15.0,1.0,15.0,85,16,Uttar Pradesh,Aligarh,False,True,True,True,True,True,True,aligarh,Uttar Pradesh,Aligarh,194.0
+2.0,15.0,2.0,15.0,86,16,Uttar Pradesh,Bullandshahar,False,False,False,True,True,True,True,bullandshahar,,,
+3.0,15.0,3.0,15.0,87,16,Uttar Pradesh,Faizabad,False,False,False,True,True,True,True,faizabad,Uttar Pradesh,Faizabad,231.0
+4.0,15.0,4.0,15.0,88,16,Uttar Pradesh,Gonda,False,False,False,True,True,True,True,gonda,Uttar Pradesh,Gonda,232.0
+5.0,15.0,5.0,15.0,89,16,Uttar Pradesh,Meerut,False,False,False,True,True,True,True,meerut,Uttar Pradesh,Meerut,191.0
+6.0,15.0,6.0,15.0,90,16,Uttar Pradesh,Varanasi,False,False,False,True,True,True,True,varanasi,Uttar Pradesh,Varanasi,216.0
+7.0,15.0,7.0,15.0,91,16,Uttar Pradesh,Allahabad,False,False,False,True,True,True,True,allahabad,Uttar Pradesh,Allahabad,210.0
+8.0,15.0,8.0,15.0,92,16,Uttar Pradesh,Badaun,False,False,False,True,True,True,True,badaun,,,
+9.0,15.0,9.0,15.0,93,16,Uttar Pradesh,Ballia,False,False,False,True,True,True,True,ballia,Uttar Pradesh,Ballia,220.0
+10.0,15.0,10.0,15.0,94,16,Uttar Pradesh,Hardoi,False,False,False,True,True,True,True,hardoi,Uttar Pradesh,Hardoi,229.0
+11.0,15.0,11.0,15.0,95,16,Uttar Pradesh,Pratapgarh,False,False,False,True,True,True,True,pratapgarh,Uttar Pradesh,Pratapgarh,235.0
+1.0,16.0,1.0,16.0,96,17,West Bengal,Burdwan,False,True,True,True,True,True,True,burdwan,West Bengal,Burdwan,805.0
+2.0,16.0,2.0,16.0,99,17,West Bengal,West Dinajpur,False,False,False,True,True,True,True,west dinajpur,West Bengal,West Dinajpur,822.0
+3.0,16.0,3.0,16.0,100,17,West Bengal,Purulia,False,False,False,True,True,True,True,purulia,West Bengal,Purulia,817.0
+4.0,16.0,4.0,16.0,97,17,West Bengal,Midnapore,False,False,False,True,True,True,True,midnapore,,,
+5.0,16.0,5.0,16.0,98,17,West Bengal,24 Pargana,False,False,False,True,True,True,True,24 pargana,,,
+1.0,17.0,,,7,2,Assam,Cachar,False,True,True,True,False,True,False,cachar,Assam,Cachar,601.0
+2.0,17.0,,,8,2,Assam,Goalpara,False,False,False,True,False,True,False,goalpara,Assam,Goalpara,604.0
+3.0,17.0,,,9,2,Assam,Sibsagar,False,False,False,True,False,True,False,sibsagar,Assam,Sibsagar,610.0
+4.0,17.0,,,10,2,Assam,Darang,False,False,False,True,False,True,False,darang,,,

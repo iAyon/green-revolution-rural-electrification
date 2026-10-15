@@ -1,0 +1,30 @@
+# Python cache & artifacts
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.venv/
+build/
+dist/
+*.egg-info/
+
+# Operating System & IDE
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Temporary scratch files and logs
+*.log
+scratch/
+tmp/
+
+# Office temp files
+~$*.pptx
+~$*.docx
+~$*.xlsx

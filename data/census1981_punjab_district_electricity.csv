@@ -1,0 +1,6 @@
+state,district_matched,raw_line,total_rural_households,households_with_electricity,population_with_electricity,households_without_electricity,pct_rural_households_electrified,page_number
+Punjab,Gurdaspur,Gurdaspur Tehsil Total,72010.0,35975.0,249785.0,36035.0,49.96,610
+Punjab,Amritsar,Amritsar Total,222135.0,105900.0,722310.0,116235.0,47.67,610
+Punjab,Firozpur,Firozpur TehsiJ Total,48975.0,16935.0,113415.0,32040.0,34.58,612
+Punjab,Rupnagar,Rupnaaar Tcbsil Total,28120.0,16860.0,117325.0,11260.0,59.96,616
+Punjab,Sangrur,Sangrur Total,161385.0,76215.0,547545.0,85170.0,47.23,617

@@ -1,0 +1,13 @@
+state,district_name,census_1981_code,total_rural_households,households_with_electricity,population_with_electricity,households_without_electricity,pct_rural_households_electrified,page_ref
+Punjab,Gurdaspur,1,188370,96255,637825,92115,51.1,610
+Punjab,Amritsar,2,222135,105900,697635,116235,47.67,610
+Punjab,Firozpur,3,165295,57925,382765,107370,35.04,611
+Punjab,Ludhiana,4,166045,107510,717960,58535,64.75,612
+Punjab,Jalandhar,5,184495,116405,735755,68090,63.09,613
+Punjab,Kapurthala,6,59970,35455,248310,24515,59.12,614
+Punjab,Hoshiarpur,7,181975,102330,618780,79645,56.23,615
+Punjab,Rupnagar,8,90105,49270,328920,40835,54.68,615
+Punjab,Patiala,9,165265,87070,620890,78195,52.69,616
+Punjab,Sangrur,10,168240,79790,563525,88450,47.43,617
+Punjab,Bhatinda,11,160865,54035,373610,106830,33.59,618
+Punjab,Faridkot,12,173335,76780,529795,96555,44.3,619

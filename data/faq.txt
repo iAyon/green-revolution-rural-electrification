@@ -1,0 +1,65 @@
+FAQ on ARIS REDS
+
+
+1.  Unlike the 69-71 "merged" data, the redsecon.raw file in 1982 is in 
+a format called "flat".   I want to convert these into stata format.  So 
+is it correct to first divide these data into "decks" (it seems that 
+each new line in redscon.raw refers to a different "deck"), and then 
+write the appropriate dictionary using  the coding in redsecon.pdf?  I 
+did this, but there seems to be information in redsecon.raw for decks 
+that are not in redsecon.pdf.  For eg.  redsecon.pdf  lists decks 1-30, 
+but using the method above, redsecon.raw seems to have (in addition to a 
+bunch of typos) information on decks 42-45 as well.
+
+You understand correctly what a flat file is. This is all the documentation we have. The codes for 42-45 are in redseadd--I have fixed the readme. Yes there are typos. At least this way we know the data haven't been doctored.
+
+2.  Is there an economic questionnaire for 1982?  I only see the 
+codebook for 1982 in redsecon.pdf.
+
+Not scanned and I actually don't have a copy. We can probably get one. 
+
+3.  For the 69-71 "merged" data, arismq.pdf has the detailed 
+description/information for each variable.  But this stops after the 
+total expenditure variable (column 1271).  However, arismcf.pdf, which 
+has the dictionary for the merged file lists additional variables (upto 
+column 1414).  I converted 69-71 to stata using the dictionary in 
+arismcf.pdf, but it would help to have the detailed description on 
+additional variables which seem to be missing from arismq.pdf.  Are 
+these somewhere else?
+
+Yes, wouldn't it be nice. This is all we have.
+
+4.  Is there a file that gives a general description of the data over 
+years?  That is, how many of the original 69-71 households were 
+re-sampled/tracked in 1982, and how many were interviewed/tracked in 
+1999?  I seem to have matched 3636 1969-71 households to the 1999 data, 
+but have no clue whether this is the correct number.
+
+Not really. You can of course check our papers and see how well we do. 
+The paper by Vashishtha that we reference in some of those has a bit more information. I will try to get that scanned and added. 
+Vashishtha, Prem S. Changes in structure of investment of rural
+households: 1970-71-1981-2 Journal of Income and Wealth, July 1989 10(2)
+21-45. 
+
+
+1.  Just to double-check, the original sample of HHs and villages that
+were first interviewed in 1969 are again interviewed in 1971, 1982, and
+1999.  So these are the same HHs and individuals (net of migration etc.)
+at 4 points in time.
+
+They were also interviewed in 1970
+
+2.  In the public69-71 directory, there are no 69 files.  Could these
+have been mislabeled as 73,74 and arisdk96 raw files, which are also
+present in public69-71?
+
+those numbers 73,74, 96 are deck numbers from the aris 70-71 survey.
+There is no separate  file 69 or 70  survey data. But the arism file has
+all three years for the "merged households".
+
+3.  In the secure 99 files, there is information on the links to 1971
+and 1982 data.  Is there a link to the 1969 data as well, or are these
+data not included at all?
+
+If you can link to 70-71 you can also link to the arism file which
+has the 69 and 70 data

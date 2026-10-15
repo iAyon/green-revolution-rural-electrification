@@ -1,0 +1,623 @@
+State Name,Dist Name,Dist Code
+Andhra Pradesh,Ananthapur,52
+Andhra Pradesh,Chittoor,54
+Andhra Pradesh,East Godavari,46
+Andhra Pradesh,Guntur,49
+Andhra Pradesh,Kadapa YSR,53
+Andhra Pradesh,Krishna,48
+Andhra Pradesh,Kurnool,51
+Andhra Pradesh,S.P.S. Nellore,50
+Andhra Pradesh,Srikakulam,44
+Andhra Pradesh,Visakhapatnam,45
+Andhra Pradesh,West Godavari,47
+Assam,Cachar,601
+Assam,Darrang,602
+Assam,Dibrugarh,603
+Assam,Goalpara,604
+Assam,Kamrup,605
+Assam,Karbi Anglong,606
+Assam,Lakhimpur,607
+Assam,Nagaon,609
+Assam,North Cachar Hil / Dima hasao,608
+Assam,Sibsagar,610
+Bihar,Bhagalpur,909
+Bihar,Champaran,901
+Bihar,Darbhanga,903
+Bihar,Gaya,912
+Bihar,Mungair,908
+Bihar,Muzaffarpur,902
+Bihar,Patna,907
+Bihar,Purnea,905
+Bihar,Saharsa,904
+Bihar,Saran,906
+Bihar,Shahabad (now part of Bhojpur district),911
+Chhattisgarh,Bastar,2
+Chhattisgarh,Bilaspur,4
+Chhattisgarh,Durg,1
+Chhattisgarh,Raigarh,5
+Chhattisgarh,Raipur,3
+Chhattisgarh,Surguja,6
+Gujarat,Ahmedabad,121
+Gujarat,Amreli,122
+Gujarat,Banaskantha,123
+Gujarat,Bharuch,124
+Gujarat,Bhavnagar,126
+Gujarat,Dangs,128
+Gujarat,Jamnagar,129
+Gujarat,Junagadh,130
+Gujarat,Kheda,131
+Gujarat,Kutch,132
+Gujarat,Mehsana,133
+Gujarat,Panchmahal,134
+Gujarat,Rajkot,135
+Gujarat,Sabarkantha,136
+Gujarat,Surat,137
+Gujarat,Surendranagar,138
+Gujarat,Vadodara / Baroda,125
+Gujarat,Valsad,127
+Haryana,Ambala,183
+Haryana,Gurgaon,180
+Haryana,Hissar,177
+Haryana,Jind,181
+Haryana,Karnal,184
+Haryana,Mahendragarh / Narnaul,182
+Haryana,Rohtak,186
+Himachal Pradesh,Bilashpur,626
+Himachal Pradesh,Chamba,627
+Himachal Pradesh,Kangra,629
+Himachal Pradesh,Kinnaur,630
+Himachal Pradesh,Kullu,631
+Himachal Pradesh,Lahul & Spiti,632
+Himachal Pradesh,Mandi,634
+Himachal Pradesh,Shimla,635
+Himachal Pradesh,Sirmaur,636
+Himachal Pradesh,Solan,633
+Jharkhand,Dhanbad,914
+Jharkhand,Hazaribagh,913
+Jharkhand,Palamau,915
+Jharkhand,Ranchi,916
+Jharkhand,Santhal Paragana / Dumka,910
+Jharkhand,Singhbhum,917
+Karnataka,Bangalore,64
+Karnataka,Belgaum,75
+Karnataka,Bellary,73
+Karnataka,Bidar,77
+Karnataka,Bijapur / Vijayapura,76
+Karnataka,Chickmagalur,71
+Karnataka,Chitradurga,72
+Karnataka,Dakshina Kannada,80
+Karnataka,Dharwad,74
+Karnataka,Gulbarga / Kalaburagi,79
+Karnataka,Hassan,69
+Karnataka,Kodagu / Coorg,82
+Karnataka,Kolar,65
+Karnataka,Mandya,68
+Karnataka,Mysore,67
+Karnataka,Raichur,78
+Karnataka,Shimoge,70
+Karnataka,Tumkur,66
+Karnataka,Uttara Kannada,81
+Kerala,Alappuzha,651
+Kerala,Eranakulam,653
+Kerala,Kannur,652
+Kerala,Kollam,659
+Kerala,Kottayam,655
+Kerala,Kozhikode,656
+Kerala,Malappuram,657
+Kerala,Palakkad,658
+Kerala,Thiruvananthapuram,661
+Kerala,Thrissur,660
+Madhya Pradesh,Balaghat,8
+Madhya Pradesh,Betul,40
+Madhya Pradesh,Bhind,27
+Madhya Pradesh,Chhatarpur,16
+Madhya Pradesh,Chhindwara,9
+Madhya Pradesh,Damoh,14
+Madhya Pradesh,Datia,25
+Madhya Pradesh,Dewas,32
+Madhya Pradesh,Dhar,33
+Madhya Pradesh,Guna,24
+Madhya Pradesh,Gwalior,22
+Madhya Pradesh,Hoshangabad,43
+Madhya Pradesh,Indore,28
+Madhya Pradesh,Jabalpur,7
+Madhya Pradesh,Jhabua,34
+Madhya Pradesh,Khandwa / East Nimar,36
+Madhya Pradesh,Khargone / West Nimar,35
+Madhya Pradesh,Mandla,12
+Madhya Pradesh,Mandsaur,31
+Madhya Pradesh,Morena,26
+Madhya Pradesh,Narsinghpur,10
+Madhya Pradesh,Panna,17
+Madhya Pradesh,Raisen,38
+Madhya Pradesh,Rajgarh,41
+Madhya Pradesh,Ratlam,29
+Madhya Pradesh,Rewa,18
+Madhya Pradesh,Sagar,13
+Madhya Pradesh,Satna,20
+Madhya Pradesh,Sehore,37
+Madhya Pradesh,Seoni / Shivani,11
+Madhya Pradesh,Shahdol,21
+Madhya Pradesh,Shajapur,42
+Madhya Pradesh,Shivpuri,23
+Madhya Pradesh,Sidhi,19
+Madhya Pradesh,Tikamgarh,15
+Madhya Pradesh,Ujjain,30
+Madhya Pradesh,Vidisha,39
+Maharashtra,Ahmednagar,102
+Maharashtra,Akola,114
+Maharashtra,Amarawati,115
+Maharashtra,Aurangabad,108
+Maharashtra,Beed,110
+Maharashtra,Bhandara,119
+Maharashtra,Bombay ,95
+Maharashtra,Buldhana,113
+Maharashtra,Chandrapur,120
+Maharashtra,Dhule,100
+Maharashtra,Jalgaon,101
+Maharashtra,Kolhapur,107
+Maharashtra,Nagpur,118
+Maharashtra,Nanded,111
+Maharashtra,Nasik,99
+Maharashtra,Osmanabad,112
+Maharashtra,Parbhani,109
+Maharashtra,Pune,103
+Maharashtra,Raigad,97
+Maharashtra,Ratnagiri,98
+Maharashtra,Sangli,105
+Maharashtra,Satara,104
+Maharashtra,Solapur,106
+Maharashtra,Thane,96
+Maharashtra,Wardha,117
+Maharashtra,Yeotmal,116
+Orissa,Balasore,701
+Orissa,Bolangir,702
+Orissa,Cuttack,703
+Orissa,Dhenkanal,704
+Orissa,Ganjam,705
+Orissa,Kalahandi,706
+Orissa,Keonjhar,707
+Orissa,Koraput,708
+Orissa,Mayurbhanja,709
+Orissa,Phulbani ( Kandhamal ),710
+Orissa,Puri,711
+Orissa,Sambalpur,712
+Orissa,Sundargarh,713
+Punjab,Amritsar,166
+Punjab,Bhatinda,174
+Punjab,Ferozpur,172
+Punjab,Gurdaspur,165
+Punjab,Hoshiarpur,169
+Punjab,Jalandhar,168
+Punjab,Kapurthala,167
+Punjab,Ludhiana,171
+Punjab,Patiala,176
+Punjab,Roopnagar / Ropar,170
+Punjab,Sangrur,175
+Rajasthan,Ajmer,139
+Rajasthan,Alwar,140
+Rajasthan,Banswara,141
+Rajasthan,Barmer,142
+Rajasthan,Bharatpur,143
+Rajasthan,Bhilwara,144
+Rajasthan,Bikaner,145
+Rajasthan,Bundi,146
+Rajasthan,Chittorgarh,147
+Rajasthan,Churu,148
+Rajasthan,Dungarpur,149
+Rajasthan,Ganganagar,150
+Rajasthan,Jaipur,151
+Rajasthan,Jaisalmer,152
+Rajasthan,Jalore,153
+Rajasthan,Jhalawar,154
+Rajasthan,Jhunjhunu,155
+Rajasthan,Jodhpur,156
+Rajasthan,Kota,157
+Rajasthan,Nagaur,158
+Rajasthan,Pali,159
+Rajasthan,Sikar,161
+Rajasthan,Sirohi,162
+Rajasthan,Swami Madhopur,160
+Rajasthan,Tonk,163
+Rajasthan,Udaipur,164
+Tamil Nadu,Chengalpattu MGR / Kanchipuram,83
+Tamil Nadu,Coimbatore,87
+Tamil Nadu,Kanyakumari,94
+Tamil Nadu,Madurai,90
+Tamil Nadu,North Arcot / Vellore,85
+Tamil Nadu,Ramananthapuram,91
+Tamil Nadu,Salem,86
+Tamil Nadu,South Arcot / Cuddalore,84
+Tamil Nadu,Thanjavur,89
+Tamil Nadu,The Nilgiris,93
+Tamil Nadu,Thirunelveli,92
+Tamil Nadu,Tiruchirapalli / Trichy,88
+Telangana,Adilabad,63
+Telangana,Hyderabad,55
+Telangana,Karimnagar,62
+Telangana,Khammam,61
+Telangana,Mahabubnagar,58
+Telangana,Medak,57
+Telangana,Nalgonda,59
+Telangana,Nizamabad,56
+Telangana,Warangal,60
+Uttar Pradesh,Agra,196
+Uttar Pradesh,Aligarh,194
+Uttar Pradesh,Allahabad,210
+Uttar Pradesh,Azamgarh,224
+Uttar Pradesh,Bahraich,233
+Uttar Pradesh,Ballia,220
+Uttar Pradesh,Banda,215
+Uttar Pradesh,Barabanki,236
+Uttar Pradesh,Bareilly,199
+Uttar Pradesh,Basti,223
+Uttar Pradesh,Bijnor,205
+Uttar Pradesh,Budaun,200
+Uttar Pradesh,Buland Shahar,192
+Uttar Pradesh,Deoria,222
+Uttar Pradesh,Etah,198
+Uttar Pradesh,Etawah,207
+Uttar Pradesh,Faizabad,231
+Uttar Pradesh,Farrukhabad,206
+Uttar Pradesh,Fatehpur,209
+Uttar Pradesh,Ghazipur,219
+Uttar Pradesh,Gonda,232
+Uttar Pradesh,Gorakhpur,221
+Uttar Pradesh,Hamirpur,214
+Uttar Pradesh,Hardoi,229
+Uttar Pradesh,Jalaun,213
+Uttar Pradesh,Jaunpur,218
+Uttar Pradesh,Jhansi,211
+Uttar Pradesh,Kanpur,208
+Uttar Pradesh,Kheri,230
+Uttar Pradesh,Lucknow,225
+Uttar Pradesh,Mainpuri,197
+Uttar Pradesh,Mathura,195
+Uttar Pradesh,Meerut,191
+Uttar Pradesh,Mirzpur,217
+Uttar Pradesh,Moradabad,201
+Uttar Pradesh,Muzaffarnagar,190
+Uttar Pradesh,Pilibhit,203
+Uttar Pradesh,Pratapgarh,235
+Uttar Pradesh,Rae-Bareily,227
+Uttar Pradesh,Rampur,204
+Uttar Pradesh,Saharanpur,189
+Uttar Pradesh,Shahjahanpur,202
+Uttar Pradesh,Sitapur,228
+Uttar Pradesh,Sultanpur,234
+Uttar Pradesh,Unnao,226
+Uttar Pradesh,Varanasi,216
+Uttarakhand,Almorah,238
+Uttarakhand,Chamoli,240
+Uttarakhand,Dehradun,244
+Uttarakhand,Garhwal,243
+Uttarakhand,Nainital,237
+Uttarakhand,Pithorgarh,239
+Uttarakhand,Tehri Garhwal,242
+Uttarakhand,Uttar Kashi,241
+West Bengal,24 Parganas,800
+West Bengal,Bankura,807
+West Bengal,Birbhum,806
+West Bengal,Burdwan,805
+West Bengal,Cooch Behar,816
+West Bengal,Darjeeling,813
+West Bengal,Hooghly,810
+West Bengal,Howrah,811
+West Bengal,Jalpaiguri,812
+West Bengal,Malda,814
+West Bengal,Midnapur,818
+West Bengal,Murshidabad,804
+West Bengal,Nadia,803
+West Bengal,Purulia,817
+West Bengal,West Dinajpur,822
+,,1
+,,2
+,,3
+,,4
+,,5
+,,6
+,,7
+,,8
+,,9
+,,10
+,,11
+,,12
+,,13
+,,14
+,,15
+,,16
+,,17
+,,18
+,,19
+,,20
+,,21
+,,22
+,,23
+,,24
+,,25
+,,26
+,,27
+,,28
+,,29
+,,30
+,,31
+,,32
+,,33
+,,34
+,,35
+,,36
+,,37
+,,38
+,,39
+,,40
+,,41
+,,42
+,,43
+,,44
+,,45
+,,46
+,,47
+,,48
+,,49
+,,50
+,,51
+,,52
+,,53
+,,54
+,,55
+,,56
+,,57
+,,58
+,,59
+,,60
+,,61
+,,62
+,,63
+,,64
+,,65
+,,66
+,,67
+,,68
+,,69
+,,70
+,,71
+,,72
+,,73
+,,74
+,,75
+,,76
+,,77
+,,78
+,,79
+,,80
+,,81
+,,82
+,,83
+,,84
+,,85
+,,86
+,,87
+,,88
+,,89
+,,90
+,,91
+,,92
+,,93
+,,94
+,,95
+,,96
+,,97
+,,98
+,,99
+,,100
+,,101
+,,102
+,,103
+,,104
+,,105
+,,106
+,,107
+,,108
+,,109
+,,110
+,,111
+,,112
+,,113
+,,114
+,,115
+,,116
+,,117
+,,118
+,,119
+,,120
+,,121
+,,122
+,,123
+,,124
+,,125
+,,126
+,,127
+,,128
+,,129
+,,130
+,,131
+,,132
+,,133
+,,134
+,,135
+,,136
+,,137
+,,138
+,,139
+,,140
+,,141
+,,142
+,,143
+,,144
+,,145
+,,146
+,,147
+,,148
+,,149
+,,150
+,,151
+,,152
+,,153
+,,154
+,,155
+,,156
+,,157
+,,158
+,,159
+,,160
+,,161
+,,162
+,,163
+,,164
+,,165
+,,166
+,,167
+,,168
+,,169
+,,170
+,,171
+,,172
+,,174
+,,175
+,,176
+,,177
+,,180
+,,181
+,,182
+,,183
+,,184
+,,186
+,,189
+,,190
+,,191
+,,192
+,,194
+,,195
+,,196
+,,197
+,,198
+,,199
+,,200
+,,201
+,,202
+,,203
+,,204
+,,205
+,,206
+,,207
+,,208
+,,209
+,,210
+,,211
+,,213
+,,214
+,,215
+,,216
+,,217
+,,218
+,,219
+,,220
+,,221
+,,222
+,,223
+,,224
+,,225
+,,226
+,,227
+,,228
+,,229
+,,230
+,,231
+,,232
+,,233
+,,234
+,,235
+,,236
+,,237
+,,238
+,,239
+,,240
+,,241
+,,242
+,,243
+,,244
+,,601
+,,602
+,,603
+,,604
+,,605
+,,606
+,,607
+,,608
+,,609
+,,610
+,,626
+,,627
+,,629
+,,630
+,,631
+,,632
+,,633
+,,634
+,,635
+,,636
+,,651
+,,652
+,,653
+,,655
+,,656
+,,657
+,,658
+,,659
+,,660
+,,661
+,,701
+,,702
+,,703
+,,704
+,,705
+,,706
+,,707
+,,708
+,,709
+,,710
+,,711
+,,712
+,,713
+,,800
+,,803
+,,804
+,,805
+,,806
+,,807
+,,810
+,,811
+,,812
+,,813
+,,814
+,,816
+,,817
+,,818
+,,822
+,,901
+,,902
+,,903
+,,904
+,,905
+,,906
+,,907
+,,908
+,,909
+,,910
+,,911
+,,912
+,,913
+,,914
+,,915
+,,916
+,,917
