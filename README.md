@@ -260,12 +260,6 @@ We compiled the complete empirical dossier into a native **16:9 widescreen Power
 * **Presentation File:** [`docs/Green_Revolution_Electricity_Presentation.pptx`](docs/Green_Revolution_Electricity_Presentation.pptx) *(1.61 MB, 18 slides)*
 * **Speaker Script & Guide:** [`docs/PRESENTATION_DECK_GUIDE.md`](docs/PRESENTATION_DECK_GUIDE.md) *(Includes slide-by-slide word-for-word scripts and anticipated Q&A)*
 
-### How to Open & Present in Google Slides
-1. Open [Google Drive](https://drive.google.com).
-2. Click **`+ New`** $\to$ **`File upload`** and select `docs/Green_Revolution_Electricity_Presentation.pptx`.
-3. Double-click the uploaded file; Google Slides will automatically open it in native 16:9 format with all card layouts, embedded charts, and speaker notes preserved.
-4. Press `Ctrl + F5` to present.
-
 ---
 
 ## Repository Structure
