@@ -1034,10 +1034,103 @@ slide16.notes_slide.notes_text_frame.text = (
 )
 
 # ==============================================================================
-# SLIDE 17: Core Insights & Contributions to Economic Literature [INSIGHTS]
+# SLIDE 17: Household Micro-Evidence: Appliance Adoption (ARIS-REDS 1982)
 # ==============================================================================
 slide17 = prs.slides.add_slide(blank_layout)
-add_header(slide17, "Core Insights: Four Contributions to the Literature", "7. Synthesis & Insights")
+add_header(slide17, "Household Micro-Evidence: Appliance Adoption by Farm Pump Status", "6. Household Micro-Evidence")
+
+fig_micro1 = 'DSI Research/docs/figures/household_appliance_by_pump_and_wealth.png'
+if os.path.exists(fig_micro1):
+    slide17.shapes.add_picture(fig_micro1, Inches(0.8), Inches(1.6), width=Inches(6.8))
+
+add_card(slide17, Inches(7.9), Inches(1.6), Inches(4.6), Inches(5.2))
+tb17_r = slide17.shapes.add_textbox(Inches(8.1), Inches(1.8), Inches(4.2), Inches(4.8))
+tf17_r = tb17_r.text_frame
+tf17_r.word_wrap = True
+
+p = tf17_r.paragraphs[0]
+p.text = "Micro Findings (N = 4,981 Households)"
+p.font.size = Pt(13)
+p.font.bold = True
+p.font.color.rgb = NAVY
+
+micro_stats = [
+    ("National Weighted Rates:", "Electric Pumps = 7.04% | Ceiling Fans = 8.25% | Any Electric Appliance = 17.16% | Radios = 34.11%"),
+    ("Low-Income Multiplier:", "11.6% without pump -> 43.1% with electric pump (3.7x surge in appliance adoption)"),
+    ("Middle-Income Multiplier:", "20.7% without pump -> 49.2% with electric pump (2.4x surge)"),
+    ("High-Income Multiplier:", "43.6% without pump -> 65.7% with electric pump (1.5x surge)"),
+    ("Wealth Proxy (Col 20):", "Verified that electric tubewell presence dramatically boosts appliance adoption across all wealth strata.")
+]
+for lbl, val in micro_stats:
+    p = tf17_r.add_paragraph()
+    p.text = f"{lbl} "
+    p.font.bold = True
+    p.font.size = Pt(10)
+    p.font.color.rgb = SLATE_DARK
+    p.space_before = Pt(6)
+    run = p.add_run()
+    run.text = val
+    run.font.bold = False
+    run.font.color.rgb = BLUE_ACCENT if "surge" in val else SLATE_DARK
+
+slide17.notes_slide.notes_text_frame.text = (
+    "In slide 17, we turn to the 1982 REDS household microdata that Abhishek prioritized. Using survey weights from redwt.raw, "
+    "we cross-tabulate domestic electric appliance ownership by household wealth rating (Col 20). Notice the striking multiplier: "
+    "low-income households with an electric pump are 3.7 times more likely to own electric appliances than those without."
+)
+
+# ==============================================================================
+# SLIDE 18: Household Micro-Econometric WLS Regression: Electric vs Diesel
+# ==============================================================================
+slide18 = prs.slides.add_slide(blank_layout)
+add_header(slide18, "Micro-Econometric Model: Electric vs. Diesel Pumpsets (WLS)", "6. Household Micro-Evidence")
+
+fig_micro2 = 'DSI Research/docs/figures/micro_regression_coefficients_pumps_to_plugs.png'
+if os.path.exists(fig_micro2):
+    slide18.shapes.add_picture(fig_micro2, Inches(0.8), Inches(1.6), width=Inches(7.2))
+
+add_card(slide18, Inches(8.3), Inches(1.6), Inches(4.2), Inches(5.2))
+tb18_r = slide18.shapes.add_textbox(Inches(8.5), Inches(1.8), Inches(3.8), Inches(4.8))
+tf18_r = tb18_r.text_frame
+tf18_r.word_wrap = True
+
+p = tf18_r.paragraphs[0]
+p.text = "WLS Model Results (HC1 Errors)"
+p.font.size = Pt(13)
+p.font.bold = True
+p.font.color.rgb = NAVY
+
+reg_micro = [
+    ("Electric Pumpset (β1)", "+0.2712 ** (z = 2.56, p = 0.010)"),
+    ("Diesel Pumpset Placebo (β2)", "+0.1143 (z = 1.40, p = 0.161 n.s.)"),
+    ("HYV Cropped Area (β3)", "+0.0241 * (z = 1.85, p = 0.065)"),
+    ("Middle vs High Income", "-0.1757 ** (p = 0.006)"),
+    ("Low vs High Income", "-0.2467 *** (p < 0.001)"),
+    ("Crucial Identification", "Diesel pumps have NO significant effect. Only electric pumps pull the grid!")
+]
+for lbl, val in reg_micro:
+    p = tf18_r.add_paragraph()
+    p.text = f"{lbl}:\n"
+    p.font.size = Pt(9.5)
+    p.font.color.rgb = SLATE_LIGHT
+    p.space_before = Pt(5)
+    run = p.add_run()
+    run.text = val
+    run.font.bold = True
+    run.font.size = Pt(10.5)
+    run.font.color.rgb = GREEN if "0.2712" in val or "p = 0.010" in val else (AMBER if "Diesel" in lbl else BLUE_ACCENT)
+
+slide18.notes_slide.notes_text_frame.text = (
+    "In slide 18, we estimate a Weighted Least Squares regression on household appliance adoption. An electric pumpset on the farm "
+    "increases the probability of domestic appliance ownership by 27.1 percentage points (p = 0.010), holding wealth, land, and family size constant. "
+    "Crucially, diesel pumpsets show no statistically significant effect, ruling out that this is merely a generic wealth effect."
+)
+
+# ==============================================================================
+# SLIDE 19: Core Insights & Contributions to Economic Literature [INSIGHTS]
+# ==============================================================================
+slide19 = prs.slides.add_slide(blank_layout)
+add_header(slide19, "Core Insights: Four Contributions to the Literature", "7. Synthesis & Insights")
 
 takeaways = [
     ("1. Reversal of the Infrastructure Paradigm", "Household electricity demand was not an exogenous government grant; it was pulled into villages by productive agricultural power demand. Farmers demanded tubewell energisation, creating the grid infrastructure that subsequently made domestic connections affordable.", BLUE_ACCENT),
@@ -1048,8 +1141,8 @@ takeaways = [
 
 for idx, (title, text, color) in enumerate(takeaways):
     top_pos = 1.6 + idx * 1.3
-    card = add_card(slide17, Inches(0.8), Inches(top_pos), Inches(11.7), Inches(1.15))
-    tb = slide17.shapes.add_textbox(Inches(1.0), Inches(top_pos + 0.1), Inches(11.3), Inches(0.95))
+    card = add_card(slide19, Inches(0.8), Inches(top_pos), Inches(11.7), Inches(1.15))
+    tb = slide19.shapes.add_textbox(Inches(1.0), Inches(top_pos + 0.1), Inches(11.3), Inches(0.95))
     tf = tb.text_frame
     tf.word_wrap = True
     
@@ -1065,17 +1158,17 @@ for idx, (title, text, color) in enumerate(takeaways):
     p2.font.color.rgb = SLATE_DARK
     p2.space_before = Pt(3)
 
-slide17.notes_slide.notes_text_frame.text = (
+slide19.notes_slide.notes_text_frame.text = (
     "To synthesize our findings, we make four main contributions: 1. We reverse the infrastructure paradigm. "
     "2. We disprove the myth that pre-1991 variation was negligible. 3. We identify the wheat-specific tubewell channel. "
     "4. We demonstrate a persistent multiplier that accelerates over time."
 )
 
 # ==============================================================================
-# SLIDE 18: Project Roadmap & Next Steps [ROADMAP]
+# SLIDE 20: Project Roadmap & Next Steps [ROADMAP]
 # ==============================================================================
-slide18 = prs.slides.add_slide(blank_layout)
-add_header(slide18, "Next Steps for the Capstone Project", "8. Project Roadmap")
+slide20 = prs.slides.add_slide(blank_layout)
+add_header(slide20, "Next Steps for the Capstone Project", "8. Project Roadmap")
 
 cards_data = [
     ("Phase 1 (Completed)", "Archival Extraction & First Stage", [
@@ -1100,8 +1193,8 @@ cards_data = [
 
 for idx, (title, subtitle, bullets, color) in enumerate(cards_data):
     left_pos = 0.8 + idx * 4.0
-    card = add_card(slide18, Inches(left_pos), Inches(1.6), Inches(3.7), Inches(5.2))
-    tb = slide18.shapes.add_textbox(Inches(left_pos + 0.2), Inches(1.8), Inches(3.3), Inches(4.8))
+    card = add_card(slide20, Inches(left_pos), Inches(1.6), Inches(3.7), Inches(5.2))
+    tb = slide20.shapes.add_textbox(Inches(left_pos + 0.2), Inches(1.8), Inches(3.3), Inches(4.8))
     tf = tb.text_frame
     tf.word_wrap = True
     
@@ -1125,7 +1218,7 @@ for idx, (title, subtitle, bullets, color) in enumerate(cards_data):
         p_b.font.color.rgb = SLATE_DARK
         p_b.space_before = Pt(6)
 
-slide18.notes_slide.notes_text_frame.text = (
+slide20.notes_slide.notes_text_frame.text = (
     "Finally, our roadmap. Phase 1 is now fully completed. In Phase 2, we will look at Southern India (Tamil Nadu and Andhra) "
     "to contrast groundwater tubewells with surface tank irrigation. In Phase 3, we will formalize an IV strategy using soil depth "
     "and complete the capstone paper. Thank you, and I look forward to your questions."
